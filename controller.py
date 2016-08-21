@@ -56,15 +56,8 @@ class LeapListener(Leap.Listener):
                 normal = hand.palm_normal
                 direction = hand.direction
 
-
-                '''
-                roll = -direction.pitch * Leap.RAD_TO_DEG / 30.0
-                pitch = -normal.roll * Leap.RAD_TO_DEG / 30.0
-
-                '''
                 pitch = -direction.pitch * Leap.RAD_TO_DEG / 30.0
                 roll = -normal.roll * Leap.RAD_TO_DEG / 30.0
-
                 yaw = direction.yaw * Leap.RAD_TO_DEG / 70.0
                 thrust = (hand.palm_position[1] - 80) / 150.0
 

@@ -148,3 +148,4 @@ modules.xml
 *.ipr
 
 examples/*
+.DS_Store
