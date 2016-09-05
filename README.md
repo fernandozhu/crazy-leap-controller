@@ -9,5 +9,5 @@ height of the plam relative to the leap motion device is scaled up and used as t
 
 ##Libraries Used:
 1. Python [Crazyflie open source library](https://github.com/bitcraze/crazyflie-lib-python) (cflib)
-2. Official [Leap Motion python library](https://developer.leapmotion.com/v2). Note that, as the time this project was developed, the official leap library only supports python 2.7,
+2. Official [Leap Motion SDK v2](https://developer.leapmotion.com/v2). Note that, as the time this project was developed, the official leap library only supports python 2.7,
 custom build is needed in order to make it compatible with python 3.x. More detailed information is available on Leap Motion's official website.
